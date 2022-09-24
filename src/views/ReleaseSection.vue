@@ -52,8 +52,7 @@ export default {
 
 .release-section {
   background: #000;
-  height: 50vh;
-  max-height: max-content;
+  min-height: 50vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
