@@ -17,7 +17,7 @@ export default {
   methods: {
     async getData() {
       await axios
-        .get('https://rise-of-tomb-raider.herokuapp.com/')
+        .get('https://rotr-api.onrender.com')
         .then(res => this.story = res.data.data[0].story)
     },
     prev(){
