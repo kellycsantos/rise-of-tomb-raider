@@ -71,7 +71,7 @@ export default {
   methods: {
     async getData() {
       await axios
-        .get('https://rise-of-tomb-raider.herokuapp.com/')
+        .get('https://rotr-api.onrender.com')
         .then(res => this.data = res.data.data)
         .then(date => this.date = date[0].release)
 
